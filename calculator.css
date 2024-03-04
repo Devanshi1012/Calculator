@@ -1,0 +1,44 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cal{
+    border: 1px solid black;
+    background-image: linear-gradient(45deg, black, grey);
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    width: 60px;
+    margin: 10px;
+    height: 60px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+
+} 
+input{
+   font-size: 30px;
+   padding: 24px;
+   border: 2px solid rgb(61, 60, 60);  
+   border-radius: 24px;
+   margin: 10px;
+   background-color: transparent;
+   color: white;
+   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.3);
+   border: none;
+   text-align: right;
+}
+
